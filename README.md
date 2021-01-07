@@ -43,7 +43,7 @@ module.exports = {
 3. Add new Articles under My-Articles tab.
 4. If an Admin, go to Admin tab to see list of registered users and their details. **Note**: You cannot see other admins in the list. Functionality to remove a user is not implemented.
 
-## :document: Folder Structure.
+## :file_folder: Folder Structure.
 
 The root is the server, with app.js as the entry point. The `client` folder contains the React frontend built using `create-react-app`.
 
