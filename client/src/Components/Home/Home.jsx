@@ -74,7 +74,7 @@ function Home() {
         <Spinner animation="border" />
       ) : (
         <div>
-          {articles &&
+          {articles ? (
             articles.map((article) => {
               return (
                 <Card key={article._id} className={classes.card}>
@@ -107,7 +107,26 @@ function Home() {
                   </Card.Body>
                 </Card>
               );
-            })}
+            })
+          ) : (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginBlock: "10%",
+              }}
+            >
+              <Spinner
+                style={{
+                  fontSize: "0.4rem",
+                  height: "5rem",
+                  width: "5rem",
+                }}
+                animation="border"
+                variant="primary"
+              />
+            </div>
+          )}
         </div>
       )}
     </div>
