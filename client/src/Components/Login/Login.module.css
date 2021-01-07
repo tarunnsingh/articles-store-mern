@@ -1,0 +1,16 @@
+/* input {
+  width: 300px !important;
+} */
+
+.container {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.loginbtn {
+  margin: 1rem 1rem 1.4rem 1rem;
+} 
+
+.googleloginbtn {
+  margin: -1rem 0rem 2rem 0 
+}

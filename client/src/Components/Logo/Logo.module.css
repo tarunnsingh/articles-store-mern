@@ -1,0 +1,14 @@
+.Logo {
+  font: 100 2rem Montserrat, sans-serif;
+  letter-spacing: -0.07ex;
+  animation: anim 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes anim {
+  from {
+    text-shadow: 0 0 5px transparent;
+  }
+  to {
+    text-shadow: 0 5px 21px rgba(87, 135, 167, 0.8);
+  }
+}

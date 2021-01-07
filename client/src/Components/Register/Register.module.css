@@ -1,0 +1,24 @@
+.loadingPage {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 41.5%;
+}
+
+.container {
+  text-align: center;
+  padding-top: 2%;
+}
+
+/* .loginbtn {
+  width: 200px;
+  margin: auto;
+} */
+
+.googleloginbtn {
+  margin: 0.5rem 0rem 2rem 0;
+}
+
+.radioButtons {
+  width: 5% !important;
+  margin: 0;
+}

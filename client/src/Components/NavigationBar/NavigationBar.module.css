@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #c9e4f8;
+}
+
+.logoutbtn {
+  background-color: #b6d9f3;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
